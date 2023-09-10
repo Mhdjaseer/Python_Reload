@@ -1,7 +1,4 @@
-##  self learning and upskilling 
-## iam the king 
-#am best 
-## this is  the last change to commit to the git hub 
-
-
-asegasgeasgsg
+##  Am started to learn From Scratch because I thinks am forgeting What I have learns earlier 
+## PYTHON
+## Data structure
+* Linked list 
