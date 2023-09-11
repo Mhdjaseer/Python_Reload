@@ -33,4 +33,15 @@ the general syntax for creating an array looks like this :
 * the **typecode** specifies what kind of elements would be stored in the array , Whenther it would be an array of any other Python data type , Remember that all elements should be of the same data type .
 
 
-https://www.freecodecamp.org/news/python-array-tutorial-define-index-methods/
+* inside square brackets you mention the **elements** that would be stored in the array , with each element being seperated by a comma . You can also created an *empty* array by just writing  *variable_name=array(typecode )* alone, without any elements. 
+
+below is a typecode table, with the different typecodes that can be used with the different data types when defining Python array 
+
+
+Tying everything together, here is an example how you would define an array in Python::
+
+```import array as arr```
+```numbers=arr.array('i',[10,20,30])```
+```print(number)```
+#output 
+#array('i',[10,20,30])
