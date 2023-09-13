@@ -135,4 +135,23 @@ def inserAtEnd(self,data):
 this code defines a method called updateNode in a linked list class. it is uded to upload the value of a node at a given  position in the linked list.
 
 
-#
+```
+#update node of a linked list
+#at given position
+def updateNode(self,val,index):
+    current_node=self.head
+    position=0
+    if postion == index:
+        current_node.data=val
+    else:
+        while(current_node !=None and position != index):
+        position=postion+1
+        current_node=current_node.next
+    
+    if current_node != None:
+        current_nonde.data=val
+    else:
+        print("index not present")
+```
+
+# DELE
