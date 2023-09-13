@@ -111,3 +111,28 @@ def insertAtIndex(self, data, index):
         else:
             print("index not present")
 ```
+
+### INSERTION IN LINKED LIST AT END 
+
+this method inserts the node at the end of the linked list . in this method , we create a **new_node** with the given data and chdck if teh head is an empty node or not if the head is empty then we make the **new_node** as head and return **else** we make a **current_node equal**  to **the_head** traverse to the last **node** of the linked lsit and when we get **none** after the curernt_node the while loop breaks and insert the **new_node** in the next of **current_node** in the next of **current_node** which is the last node of linked list . 
+
+```
+def inserAtEnd(self,data):
+    new_node=Node(data)
+    if self.head is None:
+        self.head=new_node
+        return 
+
+    current_node=self.head
+    while(current_node.next):
+        current_node=current_node.next
+
+    current_node.next=new_node
+```
+
+## Update the Node of a Linked List 
+
+this code defines a method called updateNode in a linked list class. it is uded to upload the value of a node at a given  position in the linked list.
+
+
+#

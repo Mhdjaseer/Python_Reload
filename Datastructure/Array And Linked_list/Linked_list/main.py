@@ -5,6 +5,7 @@ class Node:
         self.data=data
         self.next=None
 
+# A--> B--> C-->D-->Null
     def insertAtBegin(self,data):
         new_node=Node(data)
         if self.head is None:
@@ -13,6 +14,9 @@ class Node:
         else:
             new_node.next=self.head
             self.head=new_node
+
+
+
     
     def insertAtIndex(self,data,index):
         new_node=Node(data)
